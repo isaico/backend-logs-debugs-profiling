@@ -1,0 +1,37 @@
+{
+  "name": "desafio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon --inspect ./src/server.js 1 2 3 --port 8081 --mode fork",
+    "test":"node ./src/helpers/benchmark.js",
+    "0x":"0X ./src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autocannon": "^7.9.0",
+    "bcrypt": "^5.0.1",
+    "cluster": "^0.7.7",
+    "compression": "^1.7.4",
+    "connect-mongo": "^4.6.0",
+    "cookie-parser": "^1.4.6",
+    "ejs": "^3.1.7",
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.5",
+    "express-session": "^1.17.2",
+    "jsonwebtoken": "^8.5.1",
+    "minimist": "^1.2.6",
+    "mongodb": "^4.5.0",
+    "mongoose": "^6.3.3",
+    "passport": "^0.5.2",
+    "pino": "^8.0.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.1",
+    "eslint": "^8.14.0"
+  }
+}

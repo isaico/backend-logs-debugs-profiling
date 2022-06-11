@@ -1,0 +1,3 @@
+A la hora de hacer el --prof-process me salio esto por consola : stdout is not a tty
+el archivo isolate lo creo bien pero el prof-process no quizo agarrar y nose porque
+lo demas lo pude realizar bien

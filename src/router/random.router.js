@@ -1,9 +1,8 @@
 import express from "express";
-//import del controller
-import { getRandomController } from "../controller/random.controller.js";
+import { getRandomAsyncController } from "../controller/random.controller.js";
 
 const Router = express.Router()
 
-Router.get('/',getRandomController)
+Router.get('/randoms?',getRandomAsyncController)
 
 export default Router
